@@ -1,4 +1,18 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://onlife.ninja/'
 languageCode = 'en-us'
 title = 'onlife.ninja'
-theme = "m10c"
+theme = "nightfall"
+
+[params]
+user = "xqus"
+hostname = "onlife.ninja"
+
+  [params.author]
+    name = "xqus"
+    email = "hugo@example.com"
+
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "/posts"
