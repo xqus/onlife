@@ -1,4 +1,4 @@
-baseURL = 'http://onlife.ninja/'
+baseURL = 'https://onlife.ninja/'
 languageCode = 'en-us'
 title = 'onlife.ninja'
 theme = "nightfall"
@@ -6,10 +6,12 @@ theme = "nightfall"
 [params]
 user = "xqus"
 hostname = "onlife.ninja"
+#footerHtml = 'CC-0, Built with <a href="https://gohugo.io" class="footerLink">Hugo</a> and <a href="https://github.com/LordMathis/hugo-theme-nightfall" class="footerLink">Nightfall</a> theme'
+sitedescription = 'Your website description'
 
   [params.author]
     name = "xqus"
-    email = "hugo@example.com"
+    email = "larsen@xqus.com"
 
 [menu]
   [[menu.header]]
