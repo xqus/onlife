@@ -39,6 +39,8 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Install Dart Sass
         run: sudo snap install dart-sass
+      - name: Install Hugo Algolia
+        run: sudo npm install hugo-algolia --global
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -57,6 +59,8 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Build search index
+        run: "hugo-algolia"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
