@@ -7,11 +7,18 @@ theme = "nightfall"
 user = "xqus"
 hostname = "onlife.ninja"
 #footerHtml = 'CC-0, Built with <a href="https://gohugo.io" class="footerLink">Hugo</a> and <a href="https://github.com/LordMathis/hugo-theme-nightfall" class="footerLink">Nightfall</a> theme'
-sitedescription = 'Your website description'
+sitedescription = "I'm Audun. I am a developer and cyber hygienist. This is my notes. Thay are made mostly for my own reference but if other finds them usefull that's awesome!"
 
   [params.author]
     name = "xqus"
     email = "larsen@xqus.com"
+
+  [[params.social]]
+    key = 0
+    name = "github"
+    url = "https://github.com/xqus"
+    target = "_blank"
+    aria = "GitHub Profile"
 
 [menu]
   [[menu.header]]
